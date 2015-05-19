@@ -20,6 +20,10 @@ body {
 .icon-ko { color: red; }
 .icon-meh { color: orange; }
 
+table {
+    width: 100%;
+}
+
 caption {
     display: block;
     font-weight: bold;
@@ -30,6 +34,12 @@ caption {
 
 tr {
     margin-bottom: 25px;
+}
+
+th {
+    border: 1px solid #ccc;
+    padding: 7px 8px;
+    text-align: center;
 }
 
 /* each cell as a row... */
@@ -63,12 +73,6 @@ td:nth-of-type(8):before,
 td:nth-of-type(9):before,
 td:nth-of-type(10):before {
     content: attr(data-title);
-}
-
-th {
-    border: 1px solid #ccc;
-    padding: 4px 8px;
-    text-align: center;
 }
 
 /* no more tables : block everywhere !!! */
