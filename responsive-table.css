@@ -38,8 +38,9 @@ tr {
 
 th {
     border: 1px solid #ccc;
-    padding: 7px 8px;
+    padding: 14px 8px;
     text-align: center;
+    height: 80px;
 }
 
 /* each cell as a row... */
@@ -149,23 +150,46 @@ tbody th {
 
 }
 
-.heading { background-size: cover; width: 89px; text-indent: -1000em; }
-.heading.apple { background-image: url(img/apple.png); width: 220px; height: 256px; }
-.heading.android { background-image: url(img/android.png); width: 225px; height: 267px; }
-.heading.windows { background-image: url(img/windows.png); width: 231px; height: 230px; }
-.heading.cordova { background-image: url(img/cordova.png); width: 275px; height: 249px; }
-.heading.angular { background-image: url(img/angular.png); width: 209px; height: 223px; }
-.heading.react { background-image: url(img/react.png); width: 217px; height: 193px; }
-.heading.documentation { background-image: url(img/documentation.png); height: 186px; }
-.heading.price { background-image: url(img/price.png); height: 135px; }
-.heading.license { background-image: url(img/license.png); width: 213px; height: 213px; }
-.heading.ekino { background-image: url(img/ekino.png); width: 323px; height: 90px; }
-.heading.javascript { background-image: url(img/javascript.png); width: 168px; height: 168px; }
-.heading.ionic { background-image: url(img/ionic.png); width: 158px; height: 157px; }
-.heading.nativescript { background-image: url(img/nativescript.png); width: 218px; height: 274px; }
-.heading.react-native { background-image: url(img/react-native.png); width: 356px; height: 162px; }
-.heading.appcelerator { background-image: url(img/appcelerator.png); width: 276px; height: 253px; }
-.heading.onsenui { background-image: url(img/onsenui.png); width: 186px; height: 224px; }
-.heading.famous { background-image: url(img/famous.png); width: 181px; height: 241px; }
-.heading.touchstone { background-image: url(img/touchstone.png); width: 214px; height: 258px; }
-.heading.supersonic { background-image: url(img/supersonic.png); width: 293px; height: 248px; }
+.heading {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -1000em;
+    height: 100%;
+}
+
+.heading.apple { background-image: url(img/apple.png); }
+.heading.android { background-image: url(img/android.png); }
+.heading.windows { background-image: url(img/windows.png); }
+.heading.cordova { background-image: url(img/cordova.png); }
+.heading.angular { background-image: url(img/angular.png); }
+.heading.react { background-image: url(img/react.png); }
+.heading.documentation { background-image: url(img/documentation.png); }
+.heading.price { background-image: url(img/price.png); }
+.heading.license { background-image: url(img/license.png); }
+.heading.ekino { background-image: url(img/ekino.png); }
+.heading.javascript { background-image: url(img/javascript.png); }
+.heading.ionic { background-image: url(img/ionic.png); }
+.heading.nativescript { background-image: url(img/nativescript.png); }
+.heading.react-native { background-image: url(img/react-native.png); }
+.heading.appcelerator { background-image: url(img/appcelerator.png); }
+.heading.onsenui { background-image: url(img/onsenui.png); }
+.heading.famous { background-image: url(img/famous.png); }
+.heading.touchstone { background-image: url(img/touchstone.png); }
+.heading.supersonic { background-image: url(img/supersonic.png); }
+
+.traffic {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -1000em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.traffic.green { background-image: url(img/green.png); line-height: 3; }
+.traffic.green-mini { background-image: url(img/green-mini.png); line-height: 2; }
+.traffic.orange { background-image: url(img/orange.png); line-height: 3;}
+.traffic.orange-mini { background-image: url(img/orange-mini.png); line-height: 2; }
+.traffic.red { background-image: url(img/red.png); line-height: 3; }
+.traffic.red-mini { background-image: url(img/red-mini.png); line-height: 2; }
