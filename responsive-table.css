@@ -149,23 +149,23 @@ tbody th {
 
 }
 
-.sprite { background: url('sprite.png') no-repeat top left; width: 89px;  }
-.sprite._0000_react-native { background-position: 0 0; width: 356px; height: 162px; }
-.sprite._0001_nativescript { background-position: 0 -172px; width: 218px; height: 274px; }
-.sprite._0002_doc { background-position: 0 -456px; height: 186px; }
-.sprite._0003_ekino { background-position: 0 -652px; width: 323px; height: 90px; }
-.sprite._0004_ { background-position: 0 -752px; height: 135px; }
-.sprite._0005_license { background-position: 0 -897px; width: 213px; height: 213px; }
-.sprite._0006_angular { background-position: 0 -1120px; width: 209px; height: 223px; }
-.sprite._0007_react { background-position: 0 -1353px; width: 217px; height: 193px; }
-.sprite._0008_touchstone { background-position: 0 -1556px; width: 214px; height: 258px; }
-.sprite._0009_famous { background-position: 0 -1824px; width: 181px; height: 241px; }
-.sprite._0010_onsenui { background-position: 0 -2075px; width: 186px; height: 224px; }
-.sprite._0011_javascript { background-position: 0 -2309px; width: 168px; height: 168px; }
-.sprite._0012_ionic { background-position: 0 -2487px; width: 158px; height: 157px; }
-.sprite._0013_supersonic { background-position: 0 -2654px; width: 293px; height: 248px; }
-.sprite._0014_apple { background-position: 0 -2912px; width: 220px; height: 256px; }
-.sprite._0015_windows { background-position: 0 -3178px; width: 231px; height: 230px; }
-.sprite._0016_android { background-position: 0 -3418px; width: 225px; height: 267px; }
-.sprite._0017_cordova { background-position: 0 -3695px; width: 275px; height: 249px; }
-.sprite._0018_appcelerator { background-position: 0 -3954px; width: 276px; height: 253px; }
+.heading { background-size: cover; width: 89px; text-indent: -1000em; }
+.heading.apple { background-image: url(img/apple.png); width: 220px; height: 256px; }
+.heading.android { background-image: url(img/android.png); width: 225px; height: 267px; }
+.heading.windows { background-image: url(img/windows.png); width: 231px; height: 230px; }
+.heading.cordova { background-image: url(img/cordova.png); width: 275px; height: 249px; }
+.heading.angular { background-image: url(img/angular.png); width: 209px; height: 223px; }
+.heading.react { background-image: url(img/react.png); width: 217px; height: 193px; }
+.heading.documentation { background-image: url(img/documentation.png); height: 186px; }
+.heading.price { background-image: url(img/price.png); height: 135px; }
+.heading.license { background-image: url(img/license.png); width: 213px; height: 213px; }
+.heading.ekino { background-image: url(img/ekino.png); width: 323px; height: 90px; }
+.heading.javascript { background-image: url(img/javascript.png); width: 168px; height: 168px; }
+.heading.ionic { background-image: url(img/ionic.png); width: 158px; height: 157px; }
+.heading.nativescript { background-image: url(img/nativescript.png); width: 218px; height: 274px; }
+.heading.react-native { background-image: url(img/react-native.png); width: 356px; height: 162px; }
+.heading.appcelerator { background-image: url(img/appcelerator.png); width: 276px; height: 253px; }
+.heading.onsenui { background-image: url(img/onsenui.png); width: 186px; height: 224px; }
+.heading.famous { background-image: url(img/famous.png); width: 181px; height: 241px; }
+.heading.touchstone { background-image: url(img/touchstone.png); width: 214px; height: 258px; }
+.heading.supersonic { background-image: url(img/supersonic.png); width: 293px; height: 248px; }
